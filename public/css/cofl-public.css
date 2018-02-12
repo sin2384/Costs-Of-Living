@@ -1,0 +1,67 @@
+.responsive-table {
+  width: 100%;
+  margin: 0 0 1.5em;
+  padding: 0;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+.responsive-table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+.responsive-table tr {
+  padding: .35em;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+}
+.responsive-table th,
+.responsive-table td {
+  padding: .625em !important;
+}
+.responsive-table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  .responsive-table {
+    border: 0;
+  }
+  .responsive-table caption {
+    font-size: 1.3em;
+  }
+  .responsive-table thead th {
+    display: inline-block;
+    width: 50%;
+    border: 0;
+  }
+  .responsive-table thead th:last-of-type {
+    text-align: right;
+  }
+  .responsive-table tr {
+    display: block;
+    margin-bottom: .625em;
+    border-bottom: 3px solid #ddd;
+  }
+  .responsive-table td {
+    font-size: .8em;
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+  }
+  .responsive-table td:before {
+    font-weight: bold;
+    float: left;
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    text-transform: uppercase;
+  }
+  .responsive-table td:last-child {
+    border-bottom: 0;
+  }
+}
+

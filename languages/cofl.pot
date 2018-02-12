@@ -1,0 +1,142 @@
+# Copyright (C) 2018 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-cofl-admin.php:126 admin/class-cofl-admin.php:127
+msgid "Costs of Living"
+msgstr ""
+
+#: admin/class-cofl-admin.php:136 admin/class-cofl-admin.php:137
+msgid "COFL Submissions"
+msgstr ""
+
+#: admin/class-cofl-admin.php:284 admin/partials/cofl-admin-display.php:74
+#: admin/partials/cofl-admin-submissions.php:51
+msgid "Delete"
+msgstr ""
+
+#: admin/class-cofl-admin.php:371
+msgid "Costs Of Living"
+msgstr ""
+
+#: admin/class-cofl-admin.php:402
+#, php-format
+msgid "Display %s?"
+msgstr ""
+
+#: admin/class-cofl-admin.php:407 admin/partials/cofl-admin-submissions.php:34
+msgid "Original Price"
+msgstr ""
+
+#: admin/class-cofl-admin.php:408 admin/partials/cofl-admin-submissions.php:35
+msgid "Average Price"
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:21
+msgid "Costs of Living Settings"
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:27
+msgid "Please select the prices submit page. When user clicks \"edit\" it will be taken to this, selected page to edit items."
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:30
+msgid "User submissions disabled."
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:36
+msgid "Please create some pages"
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:40
+#: admin/partials/cofl-admin-display.php:50
+msgid "Save"
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:47
+msgid "Add New Category"
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:81
+msgid "Item Name:"
+msgstr ""
+
+#: admin/partials/cofl-admin-display.php:85
+msgid "Add New Item"
+msgstr ""
+
+#: admin/partials/cofl-admin-submissions.php:18
+msgid "User Submissions"
+msgstr ""
+
+#: admin/partials/cofl-admin-submissions.php:26
+#, php-format
+msgid "New Data For \"%s\""
+msgstr ""
+
+#: admin/partials/cofl-admin-submissions.php:36
+msgid "User Submitted"
+msgstr ""
+
+#: admin/partials/cofl-admin-submissions.php:50
+msgid "Approve"
+msgstr ""
+
+#: admin/partials/cofl-admin-submissions.php:56
+msgid "No submissions at the moment."
+msgstr ""
+
+#: includes/helpers.php:116
+msgid "[EDIT]"
+msgstr ""
+
+#: public/class-cofl-public.php:189
+#, php-format
+msgid "New prices submission for %s"
+msgstr ""
+
+#: public/class-cofl-public.php:193
+#, php-format
+msgid ""
+"Howdy %s!\n"
+" New prices are submitted for %s.\n"
+" Please review it."
+msgstr ""
+
+#: public/partials/cofl-public-form.php:38
+msgid "Submit"
+msgstr ""
+
+#: public/partials/cofl-public-table.php:30
+msgid "Thanks for your submission! We'll review it."
+msgstr ""
+
+#: public/partials/cofl-public-table.php:43
+#, php-format
+msgid "Price %s"
+msgstr ""
+
+#: public/partials/cofl-public-table.php:51
+msgid "Item"
+msgstr ""
+
+#: public/partials/cofl-public-table.php:52
+msgid "Price"
+msgstr ""
