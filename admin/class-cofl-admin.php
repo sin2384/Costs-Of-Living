@@ -294,7 +294,7 @@ class Cofl_Admin {
 		}
 
 		$current_cat = $options[ $cat_key ];
-		unset( $current['name'] );
+		unset( $current_cat['name'] );
 
 		ksort( $current_cat );
 
