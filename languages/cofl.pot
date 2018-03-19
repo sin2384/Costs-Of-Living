@@ -24,28 +24,32 @@ msgid "Costs of Living"
 msgstr ""
 
 #: admin/class-cofl-admin.php:136 admin/class-cofl-admin.php:137
-msgid "COFL Submissions"
+msgid "Submissions"
 msgstr ""
 
-#: admin/class-cofl-admin.php:284 admin/partials/cofl-admin-display.php:74
+#: admin/class-cofl-admin.php:319 admin/partials/cofl-admin-display.php:74
 #: admin/partials/cofl-admin-submissions.php:51
 msgid "Delete"
 msgstr ""
 
-#: admin/class-cofl-admin.php:371
+#: admin/class-cofl-admin.php:423
 msgid "Costs Of Living"
 msgstr ""
 
-#: admin/class-cofl-admin.php:402
+#: admin/class-cofl-admin.php:448
+msgid "Add a shortcode [cofl] to the post editor in order to display table on frontend."
+msgstr ""
+
+#: admin/class-cofl-admin.php:455
 #, php-format
 msgid "Display %s?"
 msgstr ""
 
-#: admin/class-cofl-admin.php:407 admin/partials/cofl-admin-submissions.php:34
+#: admin/class-cofl-admin.php:460 admin/partials/cofl-admin-submissions.php:34
 msgid "Original Price"
 msgstr ""
 
-#: admin/class-cofl-admin.php:408 admin/partials/cofl-admin-submissions.php:35
+#: admin/class-cofl-admin.php:461 admin/partials/cofl-admin-submissions.php:35
 msgid "Average Price"
 msgstr ""
 
@@ -107,20 +111,20 @@ msgstr ""
 msgid "[EDIT]"
 msgstr ""
 
-#: public/class-cofl-public.php:189
+#: public/class-cofl-public.php:226
 #, php-format
 msgid "New prices submission for %s"
 msgstr ""
 
-#: public/class-cofl-public.php:193
+#: public/class-cofl-public.php:230
 #, php-format
 msgid ""
-"Howdy %s!\n"
-" New prices are submitted for %s.\n"
-" Please review it."
+"Howdy!\n"
+"New prices submitted for %s. Please review it.\n"
+"%s"
 msgstr ""
 
-#: public/partials/cofl-public-form.php:38
+#: public/partials/cofl-public-form.php:44
 msgid "Submit"
 msgstr ""
 

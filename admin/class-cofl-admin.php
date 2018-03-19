@@ -445,8 +445,8 @@ class Cofl_Admin {
 		unset( $callback_args['args']['name'] );
 		$id = get_the_ID();
 		?>
+		<p><?php esc_html_e( 'Add a shortcode [cofl] to the post editor in order to display table on frontend.', 'cofl' ); ?></p>
 		<?php foreach ( $callback_args['args'] as $key => $data ) : ?>
-			<br>
 			<table class="widefat">
 				<?php $name = $data['name']; unset( $data['name'] ); ?>
 				<thead>
