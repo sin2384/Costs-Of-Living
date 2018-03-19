@@ -29,3 +29,24 @@
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }
+
+$options = get_option( 'cofl_data' );
+
+delete_option( 'cofl_data' );
+delete_option( 'cofl_submit_page' );
+delete_option( 'cofl_user_submissions' );
+
+$posts = get_posts();
+
+if ( ! $options || ! $posts ) {
+	return;
+}
+
+foreach ( $options as $cat => $item ) {
+	unset( $item['name'] );
+	foreach ( $posts as $post ) {
+		foreach ( $item as $key => $value ) {
+			delete_post_meta( $post->ID, "cofl_{$key}" );
+		}
+	}
+}
