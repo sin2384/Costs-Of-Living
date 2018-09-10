@@ -161,7 +161,7 @@ class Cofl_Public {
 		}
 
 		/* Check if user changed hidden input of the post_id. */
-		if ( $_GET['p'] != $_POST['post_id'] ) {
+		if ( url_to_postid( $_SERVER['REQUEST_URI'] ) != $_POST['post_id'] ) {
 			return;
 		}
 
